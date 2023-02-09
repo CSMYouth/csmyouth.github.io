@@ -4,28 +4,33 @@ html, body {
   background-image: url("angryimg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 IMG.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -9em;
   width: 30em;
   height: 30em;
 }
 
 .logotext {
+  display: block;
   font-family: sans-serif;
   color: white;
   font-size: 2.5em;
-  top: 10em;
-  left: 14.65em;
-  position: absolute;
+  text-align: center;
+  padding-bottom: 10em;
+  font-weight: bold;
 }
-
 .verse {
   font-family: sans-serif;
   color: black;
   background-color: white;
   left: 5em;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
 }
