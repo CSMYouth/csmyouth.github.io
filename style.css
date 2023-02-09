@@ -3,6 +3,7 @@ html, body {
   width: 100%;
   background-image: url("angryimg.png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 IMG.logo {
@@ -20,4 +21,11 @@ IMG.logo {
   top: 10em;
   left: 14.65em;
   position: absolute;
+}
+
+.verse {
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  left: 5em;
 }
