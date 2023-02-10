@@ -8,13 +8,14 @@ html, body {
   overflow-x: hidden;
 }
 
-.logo {
+#div2 {
   display: flex;
   margin-bottom: -9em;
   width: 32em;
   height: 32em;
   margin-left: auto;
   margin-right: auto;
+  max-width: 1000px;
 }
 
 .logotext {
@@ -39,8 +40,9 @@ html, body {
   border-width: 5px;
   border-radius: 0.75em;
   
-  text-align: center;
-
+ 
+  margin-left: auto;
+  margin-right: auto;
   
 }
 .upcoming{
