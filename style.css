@@ -8,13 +8,13 @@ html, body {
   overflow-x: hidden;
 }
 
-IMG.logo {
-  display: block;
+.logo {
+  display: flex;
+  margin-bottom: -9em;
+  width: 32em;
+  height: 32em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -9em;
-  width: 30em;
-  height: 30em;
 }
 
 .logotext {
@@ -27,10 +27,12 @@ IMG.logo {
   font-weight: bold;
 }
 .verse {
+  display: block;
   font-family: sans-serif;
   color: black;
   background-color: white;
   width: 20em;
+  font-weight: bold;
   
   border-color: white;
   border-style: solid;
@@ -38,7 +40,21 @@ IMG.logo {
   border-radius: 0.75em;
   
   text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+  
+}
+.upcoming{
+  
+}
+
+.memverse{
+
+}
+
+.plug {
+
+}
+
+.inf{
+
 }
