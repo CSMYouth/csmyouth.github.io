@@ -4,7 +4,8 @@ html, body {
   background-image: url("angryimg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: hidden;
+  background-size: cover;
+  overflow-x: hidden;
 }
 
 IMG.logo {
@@ -29,8 +30,15 @@ IMG.logo {
   font-family: sans-serif;
   color: black;
   background-color: white;
-  left: 5em;
+  width: 20em;
+  
   border-color: white;
   border-style: solid;
   border-width: 5px;
+  border-radius: 0.75em;
+  
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
